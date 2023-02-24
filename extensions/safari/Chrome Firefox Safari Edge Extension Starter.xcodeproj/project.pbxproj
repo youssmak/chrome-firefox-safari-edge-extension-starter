@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E820D03729A8B9A500F176C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D03629A8B9A500F176C4 /* AppDelegate.swift */; };
+		E820D03929A8B9A500F176C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D03829A8B9A500F176C4 /* SceneDelegate.swift */; };
+		E820D03C29A8B9A500F176C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E820D03A29A8B9A500F176C4 /* LaunchScreen.storyboard */; };
+		E820D03F29A8B9A500F176C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E820D03D29A8B9A500F176C4 /* Main.storyboard */; };
+		E820D04829A8B9A500F176C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D04729A8B9A500F176C4 /* AppDelegate.swift */; };
+		E820D04B29A8B9A500F176C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E820D04929A8B9A500F176C4 /* Main.storyboard */; };
+		E820D05229A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E820D05129A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E820D05C29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E820D05B29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E820D06229A8B9A500F176C4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E820D01D29A8B9A300F176C4 /* Main.html */; };
+		E820D06329A8B9A500F176C4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E820D01D29A8B9A300F176C4 /* Main.html */; };
+		E820D06429A8B9A500F176C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E820D01F29A8B9A300F176C4 /* Icon.png */; };
+		E820D06529A8B9A500F176C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E820D01F29A8B9A300F176C4 /* Icon.png */; };
+		E820D06629A8B9A500F176C4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E820D02029A8B9A300F176C4 /* Style.css */; };
+		E820D06729A8B9A500F176C4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E820D02029A8B9A300F176C4 /* Style.css */; };
+		E820D06829A8B9A500F176C4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02129A8B9A300F176C4 /* Script.js */; };
+		E820D06929A8B9A500F176C4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02129A8B9A300F176C4 /* Script.js */; };
+		E820D06A29A8B9A500F176C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D02229A8B9A300F176C4 /* ViewController.swift */; };
+		E820D06B29A8B9A500F176C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D02229A8B9A300F176C4 /* ViewController.swift */; };
+		E820D06C29A8B9A500F176C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E820D02329A8B9A500F176C4 /* Assets.xcassets */; };
+		E820D06D29A8B9A500F176C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E820D02329A8B9A500F176C4 /* Assets.xcassets */; };
+		E820D06E29A8B9A500F176C4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D02529A8B9A500F176C4 /* SafariWebExtensionHandler.swift */; };
+		E820D06F29A8B9A500F176C4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820D02529A8B9A500F176C4 /* SafariWebExtensionHandler.swift */; };
+		E820D07029A8B9A500F176C4 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E820D02729A8B9A500F176C4 /* _locales */; };
+		E820D07129A8B9A500F176C4 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E820D02729A8B9A500F176C4 /* _locales */; };
+		E820D07229A8B9A500F176C4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E820D02829A8B9A500F176C4 /* images */; };
+		E820D07329A8B9A500F176C4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E820D02829A8B9A500F176C4 /* images */; };
+		E820D07429A8B9A500F176C4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E820D02929A8B9A500F176C4 /* manifest.json */; };
+		E820D07529A8B9A500F176C4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E820D02929A8B9A500F176C4 /* manifest.json */; };
+		E820D07629A8B9A500F176C4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02A29A8B9A500F176C4 /* background.js */; };
+		E820D07729A8B9A500F176C4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02A29A8B9A500F176C4 /* background.js */; };
+		E820D07829A8B9A500F176C4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02B29A8B9A500F176C4 /* content.js */; };
+		E820D07929A8B9A500F176C4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02B29A8B9A500F176C4 /* content.js */; };
+		E820D07A29A8B9A500F176C4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E820D02C29A8B9A500F176C4 /* popup.html */; };
+		E820D07B29A8B9A500F176C4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E820D02C29A8B9A500F176C4 /* popup.html */; };
+		E820D07C29A8B9A500F176C4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E820D02D29A8B9A500F176C4 /* popup.css */; };
+		E820D07D29A8B9A500F176C4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E820D02D29A8B9A500F176C4 /* popup.css */; };
+		E820D07E29A8B9A500F176C4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02E29A8B9A500F176C4 /* popup.js */; };
+		E820D07F29A8B9A500F176C4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E820D02E29A8B9A500F176C4 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E820D05329A8B9A500F176C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E820D01729A8B9A300F176C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E820D05029A8B9A500F176C4;
+			remoteInfo = "Chrome Firefox Safari Edge Extension Starter Extension (iOS)";
+		};
+		E820D05D29A8B9A500F176C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E820D01729A8B9A300F176C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E820D05A29A8B9A500F176C4;
+			remoteInfo = "Chrome Firefox Safari Edge Extension Starter Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E820D08529A8B9A500F176C4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E820D05229A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D08C29A8B9A500F176C4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E820D05C29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E820D01E29A8B9A300F176C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		E820D01F29A8B9A300F176C4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E820D02029A8B9A300F176C4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E820D02129A8B9A300F176C4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E820D02229A8B9A300F176C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E820D02329A8B9A500F176C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E820D02529A8B9A500F176C4 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E820D02729A8B9A500F176C4 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		E820D02829A8B9A500F176C4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E820D02929A8B9A500F176C4 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		E820D02A29A8B9A500F176C4 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		E820D02B29A8B9A500F176C4 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E820D02C29A8B9A500F176C4 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E820D02D29A8B9A500F176C4 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		E820D02E29A8B9A500F176C4 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		E820D03329A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chrome Firefox Safari Edge Extension Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E820D03629A8B9A500F176C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E820D03829A8B9A500F176C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E820D03B29A8B9A500F176C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E820D03E29A8B9A500F176C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E820D04029A8B9A500F176C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E820D04529A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chrome Firefox Safari Edge Extension Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E820D04729A8B9A500F176C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E820D04A29A8B9A500F176C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E820D04C29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Chrome Firefox Safari Edge Extension Starter.entitlements"; sourceTree = "<group>"; };
+		E820D05129A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Chrome Firefox Safari Edge Extension Starter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E820D05629A8B9A500F176C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E820D05B29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Chrome Firefox Safari Edge Extension Starter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E820D06029A8B9A500F176C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E820D06129A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Chrome Firefox Safari Edge Extension Starter.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E820D03029A8B9A500F176C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D04229A8B9A500F176C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D04E29A8B9A500F176C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D05829A8B9A500F176C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E820D01629A8B9A300F176C4 = {
+			isa = PBXGroup;
+			children = (
+				E820D01B29A8B9A300F176C4 /* Shared (App) */,
+				E820D02429A8B9A500F176C4 /* Shared (Extension) */,
+				E820D03529A8B9A500F176C4 /* iOS (App) */,
+				E820D04629A8B9A500F176C4 /* macOS (App) */,
+				E820D05529A8B9A500F176C4 /* iOS (Extension) */,
+				E820D05F29A8B9A500F176C4 /* macOS (Extension) */,
+				E820D03429A8B9A500F176C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E820D01B29A8B9A300F176C4 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E820D02229A8B9A300F176C4 /* ViewController.swift */,
+				E820D02329A8B9A500F176C4 /* Assets.xcassets */,
+				E820D01C29A8B9A300F176C4 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E820D01C29A8B9A300F176C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E820D01D29A8B9A300F176C4 /* Main.html */,
+				E820D01F29A8B9A300F176C4 /* Icon.png */,
+				E820D02029A8B9A300F176C4 /* Style.css */,
+				E820D02129A8B9A300F176C4 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E820D02429A8B9A500F176C4 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E820D02529A8B9A500F176C4 /* SafariWebExtensionHandler.swift */,
+				E820D02629A8B9A500F176C4 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E820D02629A8B9A500F176C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E820D02729A8B9A500F176C4 /* _locales */,
+				E820D02829A8B9A500F176C4 /* images */,
+				E820D02929A8B9A500F176C4 /* manifest.json */,
+				E820D02A29A8B9A500F176C4 /* background.js */,
+				E820D02B29A8B9A500F176C4 /* content.js */,
+				E820D02C29A8B9A500F176C4 /* popup.html */,
+				E820D02D29A8B9A500F176C4 /* popup.css */,
+				E820D02E29A8B9A500F176C4 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E820D03429A8B9A500F176C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E820D03329A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.app */,
+				E820D04529A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.app */,
+				E820D05129A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */,
+				E820D05B29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E820D03529A8B9A500F176C4 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E820D03629A8B9A500F176C4 /* AppDelegate.swift */,
+				E820D03829A8B9A500F176C4 /* SceneDelegate.swift */,
+				E820D03A29A8B9A500F176C4 /* LaunchScreen.storyboard */,
+				E820D03D29A8B9A500F176C4 /* Main.storyboard */,
+				E820D04029A8B9A500F176C4 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E820D04629A8B9A500F176C4 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E820D04729A8B9A500F176C4 /* AppDelegate.swift */,
+				E820D04929A8B9A500F176C4 /* Main.storyboard */,
+				E820D04C29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E820D05529A8B9A500F176C4 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E820D05629A8B9A500F176C4 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E820D05F29A8B9A500F176C4 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E820D06029A8B9A500F176C4 /* Info.plist */,
+				E820D06129A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E820D03229A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E820D08629A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter (iOS)" */;
+			buildPhases = (
+				E820D02F29A8B9A500F176C4 /* Sources */,
+				E820D03029A8B9A500F176C4 /* Frameworks */,
+				E820D03129A8B9A500F176C4 /* Resources */,
+				E820D08529A8B9A500F176C4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E820D05429A8B9A500F176C4 /* PBXTargetDependency */,
+			);
+			name = "Chrome Firefox Safari Edge Extension Starter (iOS)";
+			productName = "Chrome Firefox Safari Edge Extension Starter (iOS)";
+			productReference = E820D03329A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E820D04429A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E820D08D29A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter (macOS)" */;
+			buildPhases = (
+				E820D04129A8B9A500F176C4 /* Sources */,
+				E820D04229A8B9A500F176C4 /* Frameworks */,
+				E820D04329A8B9A500F176C4 /* Resources */,
+				E820D08C29A8B9A500F176C4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E820D05E29A8B9A500F176C4 /* PBXTargetDependency */,
+			);
+			name = "Chrome Firefox Safari Edge Extension Starter (macOS)";
+			productName = "Chrome Firefox Safari Edge Extension Starter (macOS)";
+			productReference = E820D04529A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E820D05029A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E820D08229A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter Extension (iOS)" */;
+			buildPhases = (
+				E820D04D29A8B9A500F176C4 /* Sources */,
+				E820D04E29A8B9A500F176C4 /* Frameworks */,
+				E820D04F29A8B9A500F176C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chrome Firefox Safari Edge Extension Starter Extension (iOS)";
+			productName = "Chrome Firefox Safari Edge Extension Starter Extension (iOS)";
+			productReference = E820D05129A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E820D05A29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E820D08929A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter Extension (macOS)" */;
+			buildPhases = (
+				E820D05729A8B9A500F176C4 /* Sources */,
+				E820D05829A8B9A500F176C4 /* Frameworks */,
+				E820D05929A8B9A500F176C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chrome Firefox Safari Edge Extension Starter Extension (macOS)";
+			productName = "Chrome Firefox Safari Edge Extension Starter Extension (macOS)";
+			productReference = E820D05B29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E820D01729A8B9A300F176C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E820D03229A8B9A500F176C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E820D04429A8B9A500F176C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E820D05029A8B9A500F176C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E820D05A29A8B9A500F176C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E820D01A29A8B9A300F176C4 /* Build configuration list for PBXProject "Chrome Firefox Safari Edge Extension Starter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E820D01629A8B9A300F176C4;
+			productRefGroup = E820D03429A8B9A500F176C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E820D03229A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter (iOS) */,
+				E820D04429A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter (macOS) */,
+				E820D05029A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension (iOS) */,
+				E820D05A29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E820D03129A8B9A500F176C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D06429A8B9A500F176C4 /* Icon.png in Resources */,
+				E820D03C29A8B9A500F176C4 /* LaunchScreen.storyboard in Resources */,
+				E820D06229A8B9A500F176C4 /* Main.html in Resources */,
+				E820D06829A8B9A500F176C4 /* Script.js in Resources */,
+				E820D06C29A8B9A500F176C4 /* Assets.xcassets in Resources */,
+				E820D03F29A8B9A500F176C4 /* Main.storyboard in Resources */,
+				E820D06629A8B9A500F176C4 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D04329A8B9A500F176C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D06529A8B9A500F176C4 /* Icon.png in Resources */,
+				E820D06729A8B9A500F176C4 /* Style.css in Resources */,
+				E820D04B29A8B9A500F176C4 /* Main.storyboard in Resources */,
+				E820D06929A8B9A500F176C4 /* Script.js in Resources */,
+				E820D06D29A8B9A500F176C4 /* Assets.xcassets in Resources */,
+				E820D06329A8B9A500F176C4 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D04F29A8B9A500F176C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D07629A8B9A500F176C4 /* background.js in Resources */,
+				E820D07C29A8B9A500F176C4 /* popup.css in Resources */,
+				E820D07A29A8B9A500F176C4 /* popup.html in Resources */,
+				E820D07229A8B9A500F176C4 /* images in Resources */,
+				E820D07429A8B9A500F176C4 /* manifest.json in Resources */,
+				E820D07029A8B9A500F176C4 /* _locales in Resources */,
+				E820D07829A8B9A500F176C4 /* content.js in Resources */,
+				E820D07E29A8B9A500F176C4 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D05929A8B9A500F176C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D07729A8B9A500F176C4 /* background.js in Resources */,
+				E820D07D29A8B9A500F176C4 /* popup.css in Resources */,
+				E820D07B29A8B9A500F176C4 /* popup.html in Resources */,
+				E820D07329A8B9A500F176C4 /* images in Resources */,
+				E820D07529A8B9A500F176C4 /* manifest.json in Resources */,
+				E820D07129A8B9A500F176C4 /* _locales in Resources */,
+				E820D07929A8B9A500F176C4 /* content.js in Resources */,
+				E820D07F29A8B9A500F176C4 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E820D02F29A8B9A500F176C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D06A29A8B9A500F176C4 /* ViewController.swift in Sources */,
+				E820D03729A8B9A500F176C4 /* AppDelegate.swift in Sources */,
+				E820D03929A8B9A500F176C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D04129A8B9A500F176C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D06B29A8B9A500F176C4 /* ViewController.swift in Sources */,
+				E820D04829A8B9A500F176C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D04D29A8B9A500F176C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D06E29A8B9A500F176C4 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820D05729A8B9A500F176C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E820D06F29A8B9A500F176C4 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E820D05429A8B9A500F176C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E820D05029A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension (iOS) */;
+			targetProxy = E820D05329A8B9A500F176C4 /* PBXContainerItemProxy */;
+		};
+		E820D05E29A8B9A500F176C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E820D05A29A8B9A500F176C4 /* Chrome Firefox Safari Edge Extension Starter Extension (macOS) */;
+			targetProxy = E820D05D29A8B9A500F176C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E820D01D29A8B9A300F176C4 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E820D01E29A8B9A300F176C4 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E820D03A29A8B9A500F176C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E820D03B29A8B9A500F176C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E820D03D29A8B9A500F176C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E820D03E29A8B9A500F176C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E820D04929A8B9A500F176C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E820D04A29A8B9A500F176C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E820D08029A8B9A500F176C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E820D08129A8B9A500F176C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E820D08329A8B9A500F176C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter.Extension";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E820D08429A8B9A500F176C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter.Extension";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E820D08729A8B9A500F176C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E820D08829A8B9A500F176C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E820D08A29A8B9A500F176C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Chrome Firefox Safari Edge Extension Starter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter.Extension";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E820D08B29A8B9A500F176C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Chrome Firefox Safari Edge Extension Starter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter.Extension";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E820D08E29A8B9A500F176C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Chrome Firefox Safari Edge Extension Starter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E820D08F29A8B9A500F176C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Chrome Firefox Safari Edge Extension Starter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chrome Firefox Safari Edge Extension Starter";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleidar.Chrome-Firefox-Safari-Edge-Extension-Starter";
+				PRODUCT_NAME = "Chrome Firefox Safari Edge Extension Starter";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E820D01A29A8B9A300F176C4 /* Build configuration list for PBXProject "Chrome Firefox Safari Edge Extension Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E820D08029A8B9A500F176C4 /* Debug */,
+				E820D08129A8B9A500F176C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E820D08229A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E820D08329A8B9A500F176C4 /* Debug */,
+				E820D08429A8B9A500F176C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E820D08629A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E820D08729A8B9A500F176C4 /* Debug */,
+				E820D08829A8B9A500F176C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E820D08929A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E820D08A29A8B9A500F176C4 /* Debug */,
+				E820D08B29A8B9A500F176C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E820D08D29A8B9A500F176C4 /* Build configuration list for PBXNativeTarget "Chrome Firefox Safari Edge Extension Starter (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E820D08E29A8B9A500F176C4 /* Debug */,
+				E820D08F29A8B9A500F176C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E820D01729A8B9A300F176C4 /* Project object */;
+}

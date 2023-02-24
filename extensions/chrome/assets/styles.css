@@ -1,0 +1,9 @@
+.ready {
+  position: fixed;
+  bottom: 0;
+  z-index: 99999;
+  background-color: red;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}

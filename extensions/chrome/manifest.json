@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Firefox Safari Edge Extension Starter",
+  "description": "A starter extension",
+  "version": "0.1.0",
+  "permissions": ["tabs", "scripting", "declarativeNetRequest"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "assets/background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

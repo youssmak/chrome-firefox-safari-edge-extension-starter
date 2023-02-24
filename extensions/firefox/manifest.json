@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Firefox Safari Edge Extension Starter",
+  "description": "A starter extension",
+  "version": "0.1.0",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["assets/content.js"],
+      "css": ["assets/styles.css"]
+    }
+  ]
+}
